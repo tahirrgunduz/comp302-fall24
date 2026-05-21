@@ -1,12 +1,19 @@
-#comp302_project-fall24
+#COMP302_project-fall24
 
 
-Rokue-Like Game
+# Rogue-Like Dungeon Adventure Game
 
-Rokue-Like Game is a simple 2D adventure game where the player navigates a dungeon-like environment, avoids monsters, collects items, and progresses through challenges. The project demonstrates key software engineering concepts, including object-oriented programming, GUI design, and game development fundamentals.
+A 2D procedural dungeon crawler game built with Java, focusing on software architecture patterns, dynamic gameplay mechanics, and object-oriented design.
+
+## Key Features & Architecture
+* **Design Patterns:** Implemented the **Strategy Design Pattern** to manage diverse monster behaviors and dynamic movement algorithms.
+* **Game State Persistence:** Utilized **Java Serialization** to allow players to seamlessly save and load their progress.
+* **Interactive GUI:** Developed an interactive 2D user interface with real-time grid rendering, inventory systems, and smooth movement handling.
+* **Core Mechanics:** Features autonomous enemy AI, item collection systems, and dynamic grid-based movement.
 
 
-Features
+#Features
+
 
 1. Main Menu
 
@@ -15,6 +22,8 @@ Start Game: Launch the game and transition to the gameplay screen.
 Help: View instructions on how to play the game.
 
 Exit: Close the application.
+
+
 
 2. Gameplay
 
