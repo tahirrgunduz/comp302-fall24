@@ -26,148 +26,85 @@ A 2D procedural dungeon crawler game built with Java, focusing on software archi
 * **Core Mechanics:** Features autonomous enemy AI, item collection systems, and dynamic grid-based movement.
 
 
-### Features
 
 
-1. Main Menu
+---
 
-Start Game: Launch the game and transition to the gameplay screen.
+## 🕹️ Features
 
-Help: View instructions on how to play the game.
+### 1. Main Menu
+* **Start Game:** Launch the dynamic gameplay screen instantly.
+* **Load Game:** Resume your adventure from where you left off using state persistence.
+* **Help:** View clear, detailed instructions on game mechanics and controls.
+* **Exit:** Securely close the application.
 
-Exit: Close the application.
+### 2. Gameplay & Mechanics
+* **Player Movement:** Responsive grid-based navigation using arrow keys.
+* **Autonomous Monsters:** Dynamic enemy entities equipped with unique behaviors and AI movement logic.
+* **Interactive Items:** Collectible objects scattered throughout the dungeon to assist player progression.
+* **Game State Control:** Pause and resume the game seamlessly at any point via dedicated UI buttons.
 
+### 3. Help & Game Over Screens
+* **Help Menu:** Comprehensive guide detailing control layouts and core objectives, with smooth navigation back to the Main Menu.
+* **Game Over Screen:** Triggers dynamically when the countdown timer reaches zero or the player depletes all available lives.
 
+---
 
-2. Gameplay
+## 🛠️ Tech Stack
 
-Player Movement: Use arrow keys to navigate the player character.
+* **Language:** Java 8+
+* **Framework/Library:** Java Swing / AWT
+* **Design Patterns:** Strategy Pattern
+* **Persistence:** Java Serialization
 
-Monsters: Dynamic enemy characters with unique behaviors.
+---
 
-Items: Collectible objects to help the player progress.
+## ⚙️ Installation & Setup
 
-Pause/Resume: Pause and resume the game using dedicated buttons.
+### Prerequisites
+* **Java:** JDK 17 or higher installed.
+* **IDE/Environment:** IntelliJ IDEA, Eclipse, or VS Code.
 
-3. Help Menu
+---
 
-Detailed instructions on game controls and objectives.
-
-Navigation back to the Main Menu.
-
-4. Game Over Screen
-
-Displays when the player fails to complete the game within the allotted time or loses all lives.
-
-
-
-
-
-
-
-
-
-Installation
-
-Prerequisites
-
-Java 17 or higher: Ensure you have Java Development Kit (JDK) installed.
-
-IDE or Command-Line Tool: Recommended IDEs include IntelliJ IDEA, Eclipse, or VS Code.
-
-Steps
-
-Clone the repository or download the project zip file.
-
-Open the project in your preferred IDE.
-
-Build and run the project using the Main class as the entry point.
+### Steps
+1. Clone the repository to your local machine:
+   ```bash
+   git clone [https://github.com/tahirrgunduz/comp302-fall24.git](https://github.com/tahirrgunduz/comp302-fall24.git)
+   cd comp302-fall24
+2. Open the project folder in your preferred IDE.
+3. Build and run the application using the Main.java class as the entry point.
 
 
+---
 
-# Clone the repository
-git clone https://github.com/your-repo/rokue-like-game.git
-cd rokue-like-game
-
-# Run the project (if using command line)
-javac -d bin src/**/*.java
-java -cp bin org.firstgame.Main
-
-
-
-
-
-
-
-
-
-
-Project Structure
-
+## 📂 Project Structure
 
 src/main/java/org/firstgame
-├── assets            # Contains game assets such as images and fonts
-├── entities          # Defines game objects like Player, Monsters, and Items
-├── properties        # Utility classes for game constants and properties
-├── ui                # GUI components including GameWindow, MainMenu, and HelpMenu
-└── Main.java         # Entry point of the application
+├── assets          # Visual assets, textures, and custom fonts
+├── entities        # Core game entities (Player, Monsters, Items)
+├── properties      # Utility classes managing constants and configuration properties
+├── ui              # GUI components (GameWindow, MainMenu, HelpMenu)
+└── Main.java       # Application entry point
+
+---
+
+## ⌨️ Controls
+
+<b>Arrow Keys :</b> Move the player character up, down, left, or right.
+
+<b>Pause Button :</b> Halt game progression and freeze entity updates.
+
+<b>Resume Button:</b> Continue the gameplay from the paused state.
 
 
 
 
+👥 Contributors
 
-
-
-
-
-
-
-Controls
-
-Arrow Keys: Move the player character.
-
-Pause Button: Pause the game.
-
-Resume Button: Resume the game.
-
-
-
-
-
-
-Development
-
-Technologies Used
-
-Java: Primary programming language.
-
-Swing: For GUI design.
-
-AWT: For graphics rendering.
-
-Maven/Gradle (optional): For project build and dependency management.
-
-Key Concepts Implemented
-
-Object-Oriented Programming (OOP)
-
-Design Patterns (Singleton, Factory, etc.)
-
-Model-View Separation Principle
-
-
-
-
-
-
-
-Contribution Guidelines
-
-Fork the repository and create a feature branch.
-
-Make your changes and write clear commit messages.
-
-Submit a pull request with a detailed description of your changes.
+Tahir Gündüz - Junior Computer Engineer Student
+Anıl Kaan Topçu - Junior Computer Engineer Student
+Ferhat Tekin - Junior Computer Engineer Student
 
 
 
