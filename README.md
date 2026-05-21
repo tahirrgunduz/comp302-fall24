@@ -80,12 +80,14 @@ A 2D procedural dungeon crawler game built with Java, focusing on software archi
 
 ## 📂 Project Structure
 
+```text
 src/main/java/org/firstgame
 ├── assets          # Visual assets, textures, and custom fonts
 ├── entities        # Core game entities (Player, Monsters, Items)
 ├── properties      # Utility classes managing constants and configuration properties
 ├── ui              # GUI components (GameWindow, MainMenu, HelpMenu)
 └── Main.java       # Application entry point
+```
 
 ---
 
