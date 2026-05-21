@@ -5,10 +5,17 @@
 A 2D procedural dungeon crawler game built with Java, focusing on software architecture patterns, dynamic gameplay mechanics, and object-oriented design.
 
 
-<img width="1445" height="936" alt="Screenshot 2025-05-14 at 14 54 09" src="https://github.com/user-attachments/assets/b73a8f56-04e1-41d5-81cb-64380021ca17" />
 
-
-
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/22e30f88-f75b-49e2-8bac-b3e625154a49" width="350px" alt="Game Menu"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b1bef9f9-bd5e-4784-b186-d1400a683fd8"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/9254515a-e256-425e-a6e7-295dc0eab891" width="350px" alt="Gameplay 2"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a82b68c6-d0f9-4496-bb92-a3b2a9a1b2f1" width="350px" alt="Gameplay 3"/></td>
+  </tr>
+</table>
 
 
 
