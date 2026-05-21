@@ -1,4 +1,4 @@
-#COMP302_project-fall24
+# COMP302_project-fall24
 
 
 # Rogue-Like Dungeon Adventure Game
@@ -12,7 +12,7 @@ A 2D procedural dungeon crawler game built with Java, focusing on software archi
 * **Core Mechanics:** Features autonomous enemy AI, item collection systems, and dynamic grid-based movement.
 
 
-#Features
+# Features
 
 
 1. Main Menu
