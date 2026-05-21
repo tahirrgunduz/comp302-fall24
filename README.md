@@ -4,6 +4,14 @@
 
 A 2D procedural dungeon crawler game built with Java, focusing on software architecture patterns, dynamic gameplay mechanics, and object-oriented design.
 
+
+<img width="1445" height="936" alt="Screenshot 2025-05-14 at 14 54 09" src="https://github.com/user-attachments/assets/b73a8f56-04e1-41d5-81cb-64380021ca17" />
+
+
+
+
+
+
 ## Key Features & Architecture
 * **Design Patterns:** Implemented the **Strategy Design Pattern** to manage diverse monster behaviors and dynamic movement algorithms.
 * **Game State Persistence:** Utilized **Java Serialization** to allow players to seamlessly save and load their progress.
